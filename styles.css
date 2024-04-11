@@ -17,6 +17,19 @@
 body{
   width: 100%;
 }
+.nav__menu__btn {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--white);
+  cursor: pointer;
+  margin-right: 20px; /* Add margin to create space between button and other elements */
+}
+
+@media (min-width: 600px) {
+  .nav__menu__btn {
+    display: none; /* Hide the menu button on larger screens */
+  }
+}
 .section__container {
   max-width: var(--max-width);
   margin: auto;
